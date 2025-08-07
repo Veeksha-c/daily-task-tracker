@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="heading">
+        <span class="material-symbols-outlined">task</span>
+        <div class="main">Daily Task Tracker</div>
+    </div>
+    <div class="add">
+        <input type="text" placeholder="Add a new task" id="textbox">
+        <button id="submit" onclick="add()"><span class="material-symbols-outlined">add</span><b>Add</b></button>
+    </div>
+    <div class="searchfilter">
+        <div class="search">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" id="searchbox" placeholder="Search....">
+        </div>
+        <select id="filerbox">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="pending">Pending</option>
+        </select>
+    </div>
+    <div class="lists">
+<ul id="list"></ul>
+    </div><script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    background-color: #F4E1E0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+    font-family: "Bellefair", serif;
+    cursor: pointer;
+}
+.heading{
+    position: relative;
+}
+.heading .main{
+    color:#7F6269;
+    font-size: 60px;
+    text-align: center;
+}
+.heading .material-symbols-outlined{
+    font-size: 50px;
+    position: absolute;
+    top:9px;
+    color: #7F6269;
+    right: 800px;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+ 
+}
+#textbox{
+    background-color:#E5C5C1;
+    color: #7F6269;
+    height: 20px;
+    width: 400px;
+    font-size: 20px;
+    
+}
+#submit{
+    background-color: #E5C5C1;
+    color: #7F6269;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+.searchfilter{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 200px;
+}
+.search input{
+    background-color:#E5C5C1;
+    color: #7F6269;
+    height: 10px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+#filerbox{
+     background-color: #E5C5C1;
+    color: #7F6269;
+    font-size: 15px;
+    border-width: 2px;
+}
+.lists{
+display: flex;
+  justify-content: center;
+}
+.lists li{
+    color: #bd8e89;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.search{
+    position:relative ;
+}
+.search .material-symbols-outlined{
+    position: absolute;
+    top: 2px;
+    color:#7F6269;
+    font-size: 20px;
+}
+.delete-icon{
+    color: #7F6269;
+}
+.delete-icon:hover{
+    color: red;
+}
+.edit-icon{
+     color: #7F6269;
+}
+.edit-icon:hover{
+    color: blue;
+}
+.task-left{
+    display:flex;
+    align-items: center;
+}
+.task-right{
+    display: flex;
+    align-items: center;
+}
